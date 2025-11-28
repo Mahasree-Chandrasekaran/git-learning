@@ -11,5 +11,3 @@ class Main {
         System.out.print(b);
     }
 }
-new lines added
-check
