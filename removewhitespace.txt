@@ -1,0 +1,15 @@
+import java.util.*;
+class Main{
+    public static void main(String args[]){
+        Scanner Sc=new Scanner(System.in);
+        String a= Sc.nextLine();
+        StringBuilder outpt =new StringBuider();
+        char [] Array = a.toCharArray();
+        for(char s : Array){
+            if(!Character.isWhitespace(s)){
+                outpt.append(s);
+            }
+        }
+        System.out.print(output.toString());
+    }
+}
